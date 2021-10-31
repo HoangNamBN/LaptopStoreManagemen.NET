@@ -6,7 +6,7 @@ namespace QuanLyLapTop
 {
     class Connect
     {
-        public static string strCon = @"Data Source=DESKTOP-GMOQAEN\SQLEXPRESS;Initial Catalog=QuanLyCuaHangLapTopC#;Integrated Security=True";
+        public static string strCon = @"Data Source=DESKTOP-HE9DPLI\NAMHOANG;Initial Catalog=QuanLyCuaHangLapTopC#;Integrated Security=True";
         public DataSet ds;
         public SqlCommand cmd;
         SqlConnection conn;

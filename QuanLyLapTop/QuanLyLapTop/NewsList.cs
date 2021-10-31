@@ -18,7 +18,7 @@ namespace QuanLyLapTop
     {
         public static string quyen;
         public static string matintuc;
-        SqlConnection conn = new SqlConnection(@"Data Source=DESKTOP-GMOQAEN\SQLEXPRESS;Initial Catalog=QuanLyCuaHangLapTopC#;Integrated Security=True");
+        SqlConnection conn = new SqlConnection(@"Data Source=DESKTOP-HE9DPLI\NAMHOANG;Initial Catalog=QuanLyCuaHangLapTopC#;Integrated Security=True");
         SqlCommand command;
         public bool CheckKey(string sql)
         {
